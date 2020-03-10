@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Haykaz's website 1st maket</title>
+	<link rel="stylesheet" href="css/main.css">
+	<!-- portfolio start -->
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="css/pf.css">
+	<!-- portfolio end -->
+
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!-- NAVBAR START -->
+	<nav class="nav">
+
+	  	<button class="nav-toggle"><span>Menu</span></button>
+
+		<ul class="nav-menu">
+		    <li>
+		    	<a href="#head">Home</a>
+		    </li>
+		    <li>
+		    	<a href="#about">About</a>
+		    </li>
+		    <li>
+		    	<a href="#experience">Expirience</a>
+		    </li>
+		    <li>
+		    	<a href="#portfolio">Portfolio</a>
+		    </li>
+		    <li>
+		    	<a href="#skills">Skills</a>
+		    </li>
+		    <li>
+		    	<a href="#contact">Contact me</a>
+		    </li>
+		</ul>
+
+		<div class="nav-morph" 
+		       data-open="M 300,-1.9235101 C 947.48798,352.73374 368.08761,564.6745 301.42857,1052.3622" 
+		       data-close="M 300,-1.9235101 C -43.940589,374.16231 223.80189,644.6745 301.42857,1052.3622">
+		    <svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+		        <path fill="none" d="M 300,-1.9235101 C 304.63084,565.59088 299.51618,538.96021 301.42857,1052.3622"/>
+		    </svg>
+		</div>
+
+	</nav>
+	<!-- NAVBAR END -->
+
+	<!-- HEADER START -->
+	<header id="head">
+		<div id="particles-js"></div>
+	</header>
+	<!-- HEADER END -->
+
+	<main>
+
+		<!-- ABOUT START -->
+		<section id="about" class="abt">
+			<h1>About</h1>
+			<div class="about_wrapper">
+				<div class="about_left">
+					<div class="my_pic">
+						<img src="images/me.png" alt="me" />
+					</div>
+				</div>
+				<div class="about_right">
+					<div class="terminal">
+						<div class="term_top">software@engineer#hayk:~$</div>
+						<div class="term_body"><span id="typeWriter"></span></div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<!-- ABOUT END -->
+
+		<!-- EXPERIENCE START  -->
+		<section id="experience" class="experience">
+			<h1>Expirience</h1>
+			<div class="exp_way">
+				<div class="exp_item">
+					<div class="company_logo">
+						<img src="https://www.saleslist.am/business/images/sl_logo%20(1).svg" alt="">
+					</div>
+					<div class="exp_info">
+						<p class="exp_time">
+							June 2019 - Present
+						</p>
+						<p class="exp_desc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem repellat eligendi modi id quae beatae voluptatibus labore maxime sint dolorum explicabo eos, placeat non quasi vel sit totam quis.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- EXPERIENCE END  -->
+
+		<!-- PORTFOLIO START -->
+		<section id="portfolio" class="portfolio">
+			<!-- <h1>Portfolio</h1>
+			<h3 style="text-align: center;color: white">Some projects, I can show &#128522	</h3>
+			<div class="filter">
+				<div class="filter_item">ALL</div>
+				<div class="filter_item">WEB</div>
+				<div class="filter_item">MOBILE</div>
+			</div>
+			<div class="choizen_filter">
+				<div class="choizen_filter_item">WEB</div>
+				<div class="choizen_filter_item">WEB</div>
+				<div class="choizen_filter_item">MOBILE</div>
+			</div> -->
+			<div class="row">
+    <div class="col-lg-12">
+
+      <ul class="filters text-center">
+        <li class="active" data-filter="*">
+          <a href="#!"><i class="fas fa-star-of-life"></i> All</a>
+        </li>
+        <li data-filter=".Web">
+          <a href="#!"><i class="fas fa-globe"></i> Web</a>
+        </li>
+        <li data-filter=".desktop">
+          <a href="#!"><i class="fas fa-mobile"></i> Mobile</a>
+        </li>
+      </ul>
+
+      <div class="projects">
+        <div class="row">
+
+          <div class="col-lg-4 item Web html css jquery">
+            <div class="project">
+              <div class="project-head">
+                <img src="http://dnevozhai.com/work/shopping_card.jpg" alt="" class="img-fluid card-img">
+                <div class="project-overlay">
+                  <h2>Some H</h2>
+                </div>
+                <div class="project-hover">
+                  <p>
+                    Some Huynya Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error pariatur, eveniet omnis. Fugit unde, sint saepe minus assumenda tempora quam delectus adipisci, voluptatibus ipsam consequatur, sit velit libero quos voluptas.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-body text-center">
+                <h3 class="title">Web</h3>
+
+                <ul class="filters filters-tag text-center">
+                  tag:
+                  <li data-filter=".html"><a href="#!">HTML</a></li>
+                  <li data-filter=".css"><a href="#!">CSS</a></li>
+                  <li data-filter=".jquery"><a href="#!">jQuery</a></li>
+                </ul>
+
+                <div class="btn-group" role="group">
+                  <a href="#!" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+                  <a href="#!" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 item Web html css jquery">
+            <div class="project">
+              <div class="project-head">
+                <img src="http://dnevozhai.com/work/music_player.jpg" alt="" class="img-fluid card-img">
+                <div class="project-overlay">
+                  <h2>Nare website-portfolio</h2>
+                </div>
+                <div class="project-hover">
+                  <p>
+                    Nane Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error pariatur, eveniet omnis. Fugit unde, sint saepe minus assumenda tempora quam delectus adipisci, voluptatibus ipsam consequatur, sit velit libero quos voluptas.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-body text-center">
+                <h3 class="title">Web</h3>
+
+                <ul class="filters filters-tag text-center">
+                  tag:
+                  <li data-filter=".html"><a href="#!">HTML</a></li>
+                  <li data-filter=".css"><a href="#!">CSS</a></li>
+                  <li data-filter=".jquery"><a href="#!">jQuery</a></li>
+                </ul>
+
+                <div class="btn-group" role="group">
+                  <a href="#!" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+                  <a href="#!" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 item desktop">
+            <div class="project">
+              <div class="project-head">
+                <img src="http://dnevozhai.com/work/amazfit_pairing.gif" alt="" class="img-fluid card-img">
+                <div class="project-overlay">
+                  <h2>Android App </h2>
+                </div>
+                <div class="project-hover">
+                  <p>
+                    Mobile Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aspernatur quaerat ut eaque consequuntur. In quas molestias, culpa incidunt quia autem ullam recusandae qui alias! Non, labore tempore repudiandae cumque.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-body text-center">
+                <h3 class="title">mobile</h3>
+
+                <ul class="filters filters-tag text-center">
+                  tag:
+                  <li data-filter=".psd"><a href="#!">Flutter, Dart</a></li>
+                </ul>
+
+                <div class="btn-group" role="group">
+                  <a href="#!" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+                  <a href="#!" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+		</section>
+		<!-- PORTFOLIO END -->
+		
+		<!-- SKILLS START -->
+		<section class="skills" id="skills">
+			<div class="skills_body">
+				<div class="hard_skills">
+					<div class="hard_skills_top">
+						<div class="flex_center_center">
+							<div class="skill_type_wrapper">
+								<h3>HARD SKILLS</h3>
+							<div class="skills_underline"></div>
+							</div>
+						</div>
+					</div>
+					<div class="hard_skills_bottom">
+						<div class="hard_skills_bottom_line1">
+							<div class="skill_item">
+								<img src="images/skills/html5.png" alt="html5" width="50%" />
+								<p>HTML5</p>
+							</div>
+							<div class="skill_item">
+								<img src="images/skills/css.svg" alt="CSS3" width="45%" />
+								<p>CSS3</p>
+							</div>
+							<div style="justify-content: space-evenly;" class="skill_item">
+								<img src="images/skills/less.svg" alt="less" style="width: 90%" />
+								<p>less</p>
+							</div>
+						</div>
+						<div class="hard_skills_bottom_line2">
+							<div class="skill_item">
+								<img src="images/skills/js.png" alt="JS" width="50%" />
+								<p>JavaScript</p>
+							</div>
+							<div class="skill_item">
+								<img src="images/skills/react.png" alt="react" width="60%" />
+								<p>React JS</p>
+							</div>
+						</div>
+						<div class="hard_skills_bottom_line3">
+							<div class="skill_item">
+								<img src="images/skills/node.png" alt="node" width="80%" />
+								<p>Node JS</p>
+							</div>
+							<div style="justify-content: space-evenly;" class="skill_item">
+								<img src="images/skills/express.jpg" alt="express" width="80%" />
+								<p>Express</p>
+							</div>
+							<div style="justify-content: space-evenly;" class="skill_item">
+								<img src="images/skills/mongo.png" alt="mongo" width="80%" />
+								<p>Mongo DB</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skills_partition">
+					<svg height="100%" width="100%">
+						<line x1="50" y1="0" x2="100" y2="60" style="stroke:#818181;stroke-width:1" />
+						<line x1="100" y1="60" x2="0" y2="330" style="stroke:#818181;stroke-width:1" />
+						<line x1="0" y1="330" x2="50" y2="500" style="stroke:#818181;stroke-width:1" />
+					</svg> 
+				</div>
+				<div class="soft_skills">
+					<div class="soft_skills_top">
+						<div class="flex_center_center">
+							<div class="skill_type_wrapper">
+								<h3>SOFT SKILLS</h3>
+								<div class="skills_underline"></div>
+							</div>
+						</div>
+					</div>
+					<div class="soft_skills_bottom">
+						<div class="soft_skills_bottom_line1">
+							<div class="soft_item">
+								<img src="images/skills/learn.svg" width="77%" alt="learnability" />
+								<p>Learnability</p>
+							</div>	
+							<div class="soft_item">
+								<img src="images/skills/respons.svg" width="70%" alt="responsability" />
+								<p>Responsability</p>
+							</div>	
+							<div class="soft_item">
+								<img src="images/skills/emathy.svg" width="80%" alt="empathy" />
+								<p>Empathy</p>
+							</div>	
+						</div>
+						<div class="soft_skills_bottom_line2">
+							<div class="soft_item">
+								<img src="images/skills/enthus.svg" width="70%" alt="enthusiasm" />
+								<p>Enthusiasm</p>
+							</div>	
+							<div class="soft_item">
+								<img src="images/skills/teamwork.svg" width="80%" alt="Teamwork" />
+								<p>Teamwork</p>
+							</div>	
+							<div class="soft_item">
+								<img src="images/skills/solve.svg" width="82%" alt="Problem Solving" />
+								<p>Problem Solving</p>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SKILLS END -->
+
+
+		<!-- BLOG START -->
+		<!-- <section class="skl">
+			<h1>Blog</h1>
+			<p>ինձ հետաքրքիր հոդվածներ կգցեմ , կուրսեր , ․․</p>
+		</section> -->
+		<!-- BLOG END -->
+
+		<!-- HOBBIES START -->
+		<!-- <section class="exp">
+			<h1>Hobbies</h1>
+			<p>էս դեմից չի գործելու (չի երևա կայքում), բայց եթե հիմիկվանից հաշվի առնենք լավ կլինիի </p>
+		</section> -->
+		<!-- HOBBIES END -->
+
+	</main>
+
+	<footer id="contact">
+		<div class="f1">
+			<div class="icon-wrap flex row">
+		      <a href="https://www.linkedin.com/in/haikaz-bashoyan/">
+		        <div class="flex icon" id="icon-2">
+		          <i class="fab fa-linkedin"></i>
+		        </div>
+		      </a>
+		      <a href="https://www.facebook.com/computerscience.hayk">
+		        <div class="flex icon" id="icon-3">
+		          <i class="fab fa-facebook"></i>
+		        </div>
+		      </a>
+		      <a href="https://vk.com/computerscience.hayk">
+		        <div class="flex icon" id="icon-5">
+		          <i class="fab fa-vk"></i>
+		        </div>
+		      </a>
+		      <a href="https://telegram.me/Haykaz">
+		        <div class="flex icon" id="icon-3">
+		          <i class="fab fa-telegram-plane"></i>
+		        </div>
+		      </a>
+		      <a href="https://github.com/HaykazBashoyan">
+		        <div class="flex icon" id="icon-3">
+		          <i class="fab fa-github"></i>
+		        </div>
+		      </a>
+		    </div>
+		</div>
+		<div class="f2">
+			<div class="cntr">
+				Designed by <a href="other/Nane.html">ՆաՆե</a>
+				Built by <a href="#about">Հայկ</a>
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="js/3dcard.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/typeWriter.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			var typeWriter = new TypeWriter('#typeWriter');
+				
+			typeWriter.start();
+		});
+	</script>
+	
+	<!-- header -->
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+	<script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
+	<script src="js/bg_effect.js"></script>
+	<!-- ***** -->
+	<script src='https://cdn.jsdelivr.net/snap.svg/0.4.1/snap.svg-min.js'></script>
+	<script src="js/navbar.js"></script> 
+	
+	<!-- Portfolio START -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src='https://kit.fontawesome.com/177aa6247e.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+	<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+	<script  src="js/portfolioFilter.js"></script>
+	<!-- Portfolio END -->
+</body>
+</html>
